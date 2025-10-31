@@ -17,7 +17,7 @@ type QRAsset struct {
 	ProductNameBn                    string   `json:"product_name_bn"`
 	SpeciesEn                        string   `json:"species_en"`
 	SpeciesBn                        string   `json:"species_bn"`
-	ProductImage                     string   `json:"product_image"`
+	// ProductImage                     string   `json:"product_image"`
 	ProcessingTypeEn                 string   `json:"processing_type_en"`
 	ProcessingTypeBn                 string   `json:"processing_type_bn"`
 	DateOfHarvesting                 string   `json:"date_of_harvesting"`
@@ -65,7 +65,7 @@ func (s *SmartContract) InitLedger(ctx contractapi.TransactionContextInterface) 
 			ProductNameBn: "Frozen Hilsa Fish",
 			SpeciesEn: "Hilsa",
 			SpeciesBn: "Hilsa",
-			ProductImage: "https://fish.com/hilsa.jpg",
+			// ProductImage: "https://fish.com/hilsa.jpg",
 			ProcessingTypeEn: "Frozen",
 			ProcessingTypeBn: "Frozen",
 			DateOfHarvesting: "2025-09-01",

@@ -1,4 +1,4 @@
-module github.com/hyperledger/fabric-samples/asset-transfer-basic/chaincode-go
+module github.com/Meharab/fisheries/tree/main/chaincode
 
 go 1.23.0
 
